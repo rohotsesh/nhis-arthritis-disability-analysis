@@ -1,0 +1,55 @@
+# Data files (raw data should not be committed)
+data/raw/
+data/processed/*.rds
+data/processed/*.csv
+data/processed/*.feather
+
+# Outputs
+outputs/figures/*.png
+outputs/figures/*.pdf
+outputs/tables/*.csv
+outputs/tables/*.xlsx
+outputs/reports/*.html
+outputs/reports/*.pdf
+
+# R Environment
+.Rhistory
+.RData
+.Rproj.user/
+*.Rproj
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+
+# Large files
+*.zip
+*.tar.gz
